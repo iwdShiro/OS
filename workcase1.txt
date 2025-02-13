@@ -2,3 +2,20 @@
 {
 Git is a open source CLI distributed version control system that tracks versions of files in repository. Git saves and tracks the changes you make to files, so you have a record of what has been done, and you can revert to specific versions should you ever need to. To do this it using commits and branches. Git allow to exist thousands parallel branches running in different computers, the repository is stored on all collaborators PC's. Git this is tool which using by programmer for controlling source code versions. Today git is the most popular version control system in the world.
 }
+
+(millennium02)
+{
+Git uses commits and branches as a main version control mechanism. Commits can only be created after ANY changes in ANY file on repository. Branches often created to minimize impact of different developer to each other.
+Main comands in CLI git is:
+	git clone [repo_url] <-> clone git repo from server
+	git init <-> initialize repository in folder
+	git add [file1 file2 .] <-> add files which git will track (often it's . ) 
+	git log <-> show statistic of commits (often just list of commits name --oneline)
+	git checkout "branch_name" <-> changing branch
+	git commit -am "commit name" <-> commits current version of repo 
+	git push [server_name] [branch_name] <-> send repo to the remote server
+	git pull <-> copy all changes from remote server to local repo
+	git config <-> local or global config things like user name or email
+	git status <-> checking if there are changes in tracked files
+	git merge [branch_name] <-> merging current branch to another
+}
