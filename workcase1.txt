@@ -19,3 +19,7 @@ Main comands in CLI git is:
 	git status <-> checking if there are changes in tracked files
 	git merge [branch_name] <-> merging current branch to another
 }
+(Ross192)
+{
+Commits is a default mechanism in Git, which basicly captures a snapshot of the project's currently version. Committed snapshots can be thought of as “safe” versions of a project—Git will never change them unless you explicitly ask it to. Commiting a snapshot of all changes in the working directory only includes modifications to tracked files (those that have been added with git add at some point in their history). Commit can be created by "git commit" command. After that git generate a unike hash of this commit and write a commit message(if you commited with '-m' argument). Commits history can be checked by "git log" command.
+}
